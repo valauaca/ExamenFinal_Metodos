@@ -9,7 +9,22 @@
 
 
 
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 
+
+
+plt.figure()
+plt.plot(x,y)
+plt.show()
+plt.savefig(xy.png)
+
+plt.image()
+plt.plot(x,z)
+plt.show()
+plt.savefig(xz.png)
 
 
 
